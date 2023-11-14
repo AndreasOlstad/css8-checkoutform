@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Checkout</h1>
+    <div class="container">
+        <div class="left">
+            <div>
+                <h3>Contact Information</h3>
+            </div>
+            <form action="get" class="formen">
+                <p>Email</p>
+
+                <div class="ikon">
+                    <img src="./imgs/envelope-regular-24.png">
+                    <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+                </div>
+
+                <p>Phone</p>
+
+                <div class="ikon">
+                    <img src="./imgs/phone-solid-24.png">
+                    <input type="number" name="phone" id="phone" placeholder="Enter your phone...">
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>Shipping Address</h3>
+                <p>Full name</p>
+
+                <div class="ikon">
+                    <img src="./imgs/child-regular-24.png">
+                    <input type="text" name="navn" id="navn" placeholder="Enter your full name...">
+                </div>
+
+                <p>Address</p>
+
+                <div class="ikon">
+                    <img src="./imgs/buildings-solid-24.png">
+                    <input type="text" name="adress" id="adress" placeholder="Enter your adress..." required>
+                </div>
+
+                <p>City</p>
+
+                <div class="ikon">
+                    <img src="./imgs/building-house-regular-24.png">
+                    <input type="text" name="city" id="city" placeholder="Enter your city...">
+                </div>
+                <br>
+                <div class="tbl">
+                    <table>
+                        <tr>
+                            <td>
+                                <p>Country</p>
+                            </td>
+                            <td>
+                                <p>Post Code</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="ikon">
+                                    <img src="./imgs/world-regular-24.png">
+                                    <select name="country" id="country">
+                                        <option label="Turkey" value="Turkey"></option>
+                                        <option label="Norway" value="Norway"></option>
+                                        <option label="Sweden" value="Sweden"></option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ikon">
+                                    <img src="./imgs/building-house-regular-24.png">
+                                    <input type="text" name="postal" id="postal"
+                                        placeholder="Enter your postal code...">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div class="check">
+                        <input type="checkbox" name="checky" id="checky">
+                        <label for="checky">
+                            <p>See this information next time</p>
+                        </label>
+                    </div>
+
+                </div>
+            
+        </div>
+
+        <div class="right">
+
+            <div class="boks">
+                <img class="img1" src="./imgs/photo1.png">
+                <div class="tekst">
+                    <h4 style="color: black;">Vintage Backbag</h4>
+                    <h4 style="color: orangered;">$54.99 <sub><del>$94.99</del></sub></h4>
+                    <div class="pluh1">
+                        <img class="pluh" src="./imgs/minus-regular-24.png">
+                        <p class="pp">1</p>
+                        <img class="pluh" src="./imgs/plus-medical-regular-24.png">
+                    </div>
+                </div>
+                <br>
+
+            </div>
+            <div class="boks">
+                <img class="img1" src="./imgs/photo2.png">
+                <div class="tekst">
+                    <h4 style="color: black;">Vintage Backbag</h4>
+                    <h4 style="color: orangered;">$54.99 <sub><del>$94.99</del></sub></h4>
+                    <div class="pluh1">
+                        <img class="pluh" src="./imgs/minus-regular-24.png">
+                        <p class="pp">1</p>
+                        <img class="pluh" src="./imgs/plus-medical-regular-24.png">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="price">
+                        <h3>Shipping $19</h3>
+                    </div>
+                    <br>
+                    <div class="price">
+                        <h3>$148.98</h3>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+     <button type="submit">
+            Continue
+        </button>
+    </form>
+        </div>
+</body>
+
+</html>

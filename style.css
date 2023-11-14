@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.formen {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.ikon {
+    display: flex;
+    border: 1px solid rgb(136, 127, 127);
+    border-radius: 5px;
+    padding: 1px;
+}
+input {
+    border: 0px;
+}
+select {
+    border: 0px;
+}
+.left {
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-right: 25px;
+    width: 35%;
+}
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: grey;
+}
+table {
+    width: 370px;
+}
+label {
+    color: grey;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 35%;
+    background-color: rgb(188, 175, 175);
+    height: 370px;
+    width: 300px;
+    border-radius: 20px;
+}
+.boks {
+    display: flex;
+    margin-top: 10px;
+}
+.img1 {
+    border-radius: 30px;
+    height: 110px;
+    width: 100px;
+    display: flexx;
+    padding: 10px;
+}
+
+.check {
+    display: flex;
+}
+del {
+    color: black;
+}
+.pluh1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+}
+.pluh {
+    width: 30px;
+    height: 30px;
+}
+.pp {
+    color: black;
+}
+.price {
+    color: black;
+    border-top: 0.7px solid grey;
+    display: flex;
+}
+
+button{
+    background-color: rgb(162, 124, 28);
+    color: white;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold;
+}
+.btn {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(108, 83, 20);
+}
